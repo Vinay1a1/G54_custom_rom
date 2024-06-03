@@ -127,6 +127,9 @@
 ![Flash](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Flash.png?raw=true)
 
 
+![Reboot_yes_or_no](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Reboot%20yes%20or%20no.jpgraw=true)
+
+
 5. **Format Data**:
    - Format data as required by the new ROM.
 
