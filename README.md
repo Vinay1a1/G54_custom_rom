@@ -23,14 +23,18 @@
 
 4. **Open Platform Tools Folder**:
    - Navigate to the folder where you extracted the Platform Tools.
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/platform%20tools%20folder.png)
+  
+     
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/platform%20tools%20folder.png?raw=true)
+
+
 5. **Open Command Prompt in Platform Tools Folder**:
    - Click the URL bar
    - Type CMD
    - Press enter
   
    
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/cmd.png)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/cmd.png?raw=true)
 
 
   ###   **Unlocking Bootloader**
@@ -42,7 +46,7 @@
    - Alternatively, use the command: `adb reboot bootloader`.
   
    
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Bootloader%20mode.jpg)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Bootloader%20mode.jpg?raw=true)
 
 
 3. **Connect to PC**:
@@ -72,7 +76,7 @@
    - You will receive an unlock key via email.
 
    
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Moto%20webiste.png)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Moto%20webiste.png?raw=true)
 
 
 7. **Unlock Bootloader**:
@@ -95,7 +99,7 @@
    - Type: `fastboot reboot recovery`.
   
      
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/recovery.png)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/recovery.png?raw=true)
 
 
  ###  **Flashing ROM**
@@ -108,7 +112,7 @@
    - Select "Apply update".
   
    
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/apply%20update.png)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/apply%20update.png?raw=true)
 
 
 3. **Choose Update Source**:
@@ -120,7 +124,7 @@
    - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No" as needed.
   
    
-!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Flash.png)
+!(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Flash.png?raw=true)
 
 
 5. **Format Data**:
