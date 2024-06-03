@@ -1,93 +1,109 @@
+### Requirements
 
-Custom rom in G54
-VinayJune 03, 2024
- PC with platform tools and ADB Driver or a secondary mobile with Bugjaegar app. link- https://play.google.com/store/apps/details?id=eu.sisik.hackendebug "NO YOU CANNOT USE WIFI TO CONNECT WITH RECOVERY AND ALSO CANNOT FLASH A69 WITH 5G BASEBAND, SORRY FOR DISAPPOINTMENT " 😞
- 
- OTG Cable and compatible USB Cable for Bugjaegar app SD card or Pendrive ( pendrive doesn't work sometimes so use at your own risk, SD card 99.99% times is safe)
- 
- Developer Options enabled and USB debugging enabled on both the devices and OEM Unlocking enabled on which you want to flash custom ROM and RECOVERY, MUST
- 
- Download Rom file and recovery.img and keep it in SD card in advance. Also keep 'recovery.img' in your PC/secondary device through which you will be using platform tools/Bugjaegar. (These files are available in update group and recovery link can be found in a section below)
- Your bootloader must be unlocked, process is given in a section below.
- 
- A 🧠 that functions and has patience.
- 
- Some button combos for General Knowledge -Power + volume down long press = Boots into bootloader
+1. **PC**
+2. **Platform Tools**: [Download here](http://developer.android.com/sdk/index.html)
+3. **Moto USB Drivers**: [Download here](https://en-us.support.motorola.com/app/usb-drivers)
+4. **USB Cable**
+5. **Brain**
 
-Platform tools link- http://developer.android.com/sdk/index.html
+### Step-by-Step Instructions
 
-Moto usb drivers link- https://en-us.support.motorola.com/app/usb-drivers
+#### Step 1: Downloading Platform Tools
 
+1. **Download Platform Tools**:
+   - Go to the [Platform Tools download page](http://developer.android.com/sdk/index.html).
+   - Download the ZIP file for your operating system.
 
-Unlocking bootloader
+2. **Install Moto USB Drivers**:
+   - Download the drivers from [this link](https://en-us.support.motorola.com/app/usb-drivers).
+   - Install the USB drivers on your PC.
 
-1.  Follow this link here
-2. Sign-in using Google
-3.  Now reboot your phone into bootloader mode using the instructions above(vol down+ power button or adb reboot bootloader)
+3. **Extract the ZIP File**:
+   - Extract the contents of the Platform Tools ZIP file to a convenient location on your PC.
 
-Device in bootloader mode
-4. Now, connect to pc and type fastboot oem get_unlock_data
+4. **Open Platform Tools Folder**:
+   - Navigate to the folder where you extracted the Platform Tools.
 
-5. You will get something like this on your pc screen
+5. **Open Command Prompt in Platform Tools Folder**:
+   - Click the URL bar
+   - Type CMD
+   - Press enter
 
-(bootloader) 0A40040192024205#4C4D3556313230
+  ###   **Unlocking Bootloader**
 
- (bootloader) 30373731363031303332323239#BD00
+1. **Sign-In Using Google**: Follow the link provided and sign in using your Google account.
 
- (bootloader) 8A672BA4746C2CE02328A2AC0C39F95
+2. **Reboot into Bootloader Mode**:
+   - Hold the volume down and power buttons simultaneously.
+   - Alternatively, use the command: `adb reboot bootloader`.
 
- (bootloader) 1A3E5#1F53280002000000000000000
+3. **Connect to PC**:
+   - Ensure your phone is connected to your PC via USB.
 
- (bootloader) 0000000
+4. **Retrieve Unlock Data**:
+   - Open a command prompt/terminal on your PC.
+   - Type: `fastboot oem get_unlock_data`.
 
-6. Paste together the 5 lines of output into one continuous string without "bootloader or info" or white spaces. 
+5. **Copy Unlock Data**:
+   - You will see output similar to this:
+     ```
+     (bootloader) 0A40040192024205#4C4D3556313230
+     (bootloader) 30373731363031303332323239#BD00
+     (bootloader) 8A672BA4746C2CE02328A2AC0C39F95
+     (bootloader) 1A3E5#1F53280002000000000000000
+     (bootloader) 0000000
+     ```
+   - Combine these lines into one continuous string without "bootloader" or spaces. For example:
+     ```
+     0A40040192024205#4C4D355631323030373731363031303332323239#BD008A672BA4746C2CE02328A2AC0C39F951A3E5#1F532800020000000000000000000000
+     ```
 
-Like- 0A40040192024205#4C4D355631323030373731363031303332323239#BD008A672BA4746C2CE02328A2AC0C39F951A3E5#1F532800020000000000000000000000
+6. **Submit Unlock Data**:
+   - Paste the combined string on the site you logged in to earlier.
+   - Click "Can my device be unlocked?" and agree to the terms.
+   - You will receive an unlock key via email.
 
-7. Copy and paste it on the site you logged in above
+7. **Unlock Bootloader**:
+   - In the command prompt/terminal, type: `fastboot oem unlock <key>`.
+   - Replace `<key>` with the unlock code from the email.
+   - Confirm the unlock on your phone using the power buttons.
 
-8. Click the can my device be unlocked button. Agree the the terms and you will get an unlock key on your mail.
+8. **Bootloader Unlocked**:
+   - Your bootloader is now unlocked.
 
-9. Type fastboot oem unlock key
+    ###    **Flashing Recovery**
 
-Replace the "key" with the unlock code you received in your email.
+1. **Download Recovery**:
+   - Obtain the latest recovery image from the appropriate source.
 
-10. Click yes in your phone using power buttons.
+2. **Flash Recovery**:
+   - In the command prompt/terminal, type: `fastboot flash vendor_boot recovery.img`.
 
-11.Now, your bootloader is unlocked.
+3. **Reboot to Recovery**:
+   - Type: `fastboot reboot recovery`.
 
+ ###  **Flashing ROM**
 
-Flashing recovery
+1. **Download ROM**:
+   - Get the ROM you want to install. Verify the MD5 checksum to avoid hardbrick.
 
- Download the latest recovery from the group.
- Type 
+2. **Apply Update in Recovery**:
+   - Boot into recovery mode.
+   - Select "Apply update".
 
-    Fastboot flash vendor_boot recovery.img
+3. **Choose Update Source**:
+   - Select either pendrive, SD card, or ADB sideload.
+   - If using a PC, type: `adb sideload <rom.zip>`.
+   - Replace `<rom.zip>` with the filename or filepath of the ROM.
 
- 3. Then
+4. **Flash ROM**:
+   - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No" as needed.
 
-    Fastboot reboot recovery
+5. **Format Data**:
+   - Format data as required by the new ROM.
 
-Recovery mode
+6. **Reboot to System**:
+   - Reboot your phone to the system.
 
-
-
-Flashing Rom
-
-    Download the rom you want from the group. Make sure to verify the MD5 Checksum. Or it may lead to hardbrick.
-    Tap apply update in the recovery.
-    Choose pendrive/sdcard/adb sideload
-    If you are using PC then type 
-
-    Adb sideload rom.zip
-
-Replace rom.zip with the filename or filepath
-
-
-It will flash till 47% and will ask if you want to reboot to flash additional packages. Select yes if you want to or else press no.
-
-5. Format data.
-
-6. Reboot to system.
-
-7. Enjoy rom.
+7. **Enjoy New ROM**:
+   - Your new ROM is now installed and ready to use.
