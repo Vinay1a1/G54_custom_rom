@@ -28,7 +28,11 @@
    - Click the URL bar
    - Type CMD
    - Press enter
+  
+   
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/cmd.png)
+
+
   ###   **Unlocking Bootloader**
 
 1. **Sign-In Using Google**: Follow the link provided and sign in using your Google account.
@@ -36,7 +40,11 @@
 2. **Reboot into Bootloader Mode**:
    - Hold the volume down and power buttons simultaneously.
    - Alternatively, use the command: `adb reboot bootloader`.
+  
+   
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Bootloader%20mode.jpg)
+
+
 3. **Connect to PC**:
    - Ensure your phone is connected to your PC via USB.
 
@@ -62,7 +70,11 @@
    - Paste the combined string on the site you logged in to earlier.
    - Click "Can my device be unlocked?" and agree to the terms.
    - You will receive an unlock key via email.
+
+   
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Moto%20webiste.png)
+
+
 7. **Unlock Bootloader**:
    - In the command prompt/terminal, type: `fastboot oem unlock <key>`.
    - Replace `<key>` with the unlock code from the email.
@@ -81,7 +93,11 @@
 
 3. **Reboot to Recovery**:
    - Type: `fastboot reboot recovery`.
+  
+     
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/recovery.png)
+
+
  ###  **Flashing ROM**
 
 1. **Download ROM**:
@@ -90,7 +106,11 @@
 2. **Apply Update in Recovery**:
    - Boot into recovery mode.
    - Select "Apply update".
+  
+   
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/apply%20update.png)
+
+
 3. **Choose Update Source**:
    - Select either pendrive, SD card, or ADB sideload.
    - If using a PC, type: `adb sideload <rom.zip>`.
@@ -98,7 +118,11 @@
 
 4. **Flash ROM**:
    - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No" as needed.
+  
+   
 !(https://github.com/Vinay1a1/G54_custom_rom/blob/main/Flash.png)
+
+
 5. **Format Data**:
    - Format data as required by the new ROM.
 
