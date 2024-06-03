@@ -38,7 +38,7 @@
 
 
   ###   **Unlocking Bootloader**
-
+Turn on oem unlocking from settings>developer options
 1. **Sign-In Using Google**: Follow the link provided and sign in using your Google account.
 
 2. **Reboot into Bootloader Mode**:
