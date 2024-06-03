@@ -32,6 +32,8 @@
    - Click the URL bar
    - Type CMD
    - Press enter
+
+   ![URL](https://github.com/Vinay1a1/G54_custom_rom/blob/main/url.png)
   
    
 ![CMD](https://github.com/Vinay1a1/G54_custom_rom/blob/main/cmd.png?raw=true)
@@ -121,7 +123,7 @@ Turn on oem unlocking from settings>developer options
    - Replace `<rom.zip>` with the filename or filepath of the ROM.
 
 4. **Flash ROM**:
-   - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No" as needed.
+   - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No". It doesn't matter what you choose.
   
    
 ![Flash](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Flash.png?raw=true)
