@@ -3,6 +3,7 @@
 ##For windows
 
 **Step 1**
+
 Download and Install RSA from Motorola website. It will install all the needed drivers. 
 
 Restart your PC.
@@ -19,10 +20,12 @@ Take your phone , press & hold the volume up , volume down & power buttons toget
 
 Plug in your phone. 
 
-**Step 5
+**Step 5**
 
 Your phone should boot into fastboot. Now flash using RSA or tinyfastboot.
 
 Credits- Ayan, for original blankflash guide.
+
 vache for providing file.
+
 Brickers for testing
