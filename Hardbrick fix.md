@@ -1,6 +1,6 @@
 ### Hardbrick fix guide
 
-##For windows
+**For windows**
 
 **Step 1**
 
