@@ -1,10 +1,16 @@
 ### Hardbrick fix guide
 
+**Requirements**
+1. USB cable
+2. Blankflash file
+3. Brain
+
+
 **For windows**
 
 **Step 1**
 
-Download and Install RSA from Motorola website. It will install all the needed drivers. 
+Download and Install RSA from Motorola website. It will install all the needed drivers.
 
 Restart your PC.
 
@@ -22,9 +28,11 @@ Plug in your phone.
 
 **Step 5**
 
-Your phone should boot into fastboot. Now flash using RSA or tinyfastboot.
+Your phone should boot into fastboot. Now flash using RSA or tinyfastboot script.
 
-Credits- Ayan, for original blankflash guide.
+Credits-
+
+Ayan, for original blankflash guide.
 
 vache for providing file.
 
