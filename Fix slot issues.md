@@ -1,9 +1,11 @@
 ## To check if you have an empty slot
 1. Connect device in fastboot
-2. type fastboot getvar all
-3. Check the lines with slot_unbootable
-4. If it says "yes" then you need to fix it
-5. Example-
+2. Open command prompt
+3. Type: fastboot getvar all
+4. Hit enter
+5. Check the lines with slot_unbootable
+6. If it says "yes" then you need to fix it
+7. Example-
    
       `(bootloader) slot-successful:_a: yes`
    
