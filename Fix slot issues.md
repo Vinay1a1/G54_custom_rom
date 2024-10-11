@@ -1,9 +1,3 @@
-## Requirements 
-1. Download tiny fastboot script from lolinet- https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
-2. Your device firmware(one version older than the one you wish to be on) from- https://mirrors.lolinet.com/firmware/lenomola/
-3. Brain
-4. Eyes
-
 ## To check if you have empty slots
 1. Connect device in fastboot
 2. type fastboot getvar all
@@ -18,6 +12,14 @@
       `(bootloader) slot-unbootable:_a: no`
    
       `(bootloader) slot-unbootable:_b: yes`
+
+   
+## Requirements 
+1. Download tiny fastboot script from lolinet- https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
+2. Your device firmware(one version older than the one you wish to be on) from- https://mirrors.lolinet.com/firmware/lenomola/
+3. Brain
+4. Eyes
+
 
 ## To fix it, follow the steps
 
