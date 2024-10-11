@@ -11,10 +11,10 @@
 4. If it says "yes" then you need to fix it
 5. Example-
    
-      '(bootloader) slot-successful:_a: yes'
-      '(bootloader) slot-successful:_b: no'
-      '(bootloader) slot-unbootable:_a: no'
-      '(bootloader) slot-unbootable:_b: yes'
+      `(bootloader) slot-successful:_a: yes`
+      `(bootloader) slot-successful:_b: no`
+      `(bootloader) slot-unbootable:_a: no`
+      `(bootloader) slot-unbootable:_b: yes`
 
 ## To fix it, follow the steps
 
