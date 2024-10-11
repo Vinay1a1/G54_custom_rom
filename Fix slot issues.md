@@ -1,8 +1,10 @@
 ## Requirements 
-1. Download tiny fastboot script from lolinet
-2. Your device firmware(one version older than the one you wish to be on)
+1. Download tiny fastboot script from lolinet- https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
+2. Your device firmware(one version older than the one you wish to be on from- https://mirrors.lolinet.com/firmware/lenomola/
+3. Brain
+4. Eyes
 
-##Steps
+## Steps
 1. Extract both TFS and firmware in the same folder
 2. Run flash.bat
 3. Use the default bootloader version(1st option)
