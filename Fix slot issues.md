@@ -6,13 +6,15 @@
 
 ## Steps
 1. Extract both TFS and firmware in the same folder
-2. Run flash.bat
-3. Use the default bootloader version(1st option)
-4. Press 5 to flash full firmware and factory reset
-5. Wait
-6. Boot your phone in system once flashing is completed
-7. Go to updates in settings
-8. Do an OTA and reboot
+2. ![Image showing both in same folder](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Screenshot%20(12).png)
+3. Run flash.bat
+4. Use the default bootloader version(1st option)
+5. Press 5 to flash full firmware and factory reset
+6. 
+7. Wait
+8. Boot your phone in system once flashing is completed
+9. Go to updates in settings
+10. Do an OTA and reboot
 
 Now your slots are fixed. You can flash custom rom without an issue now
 
