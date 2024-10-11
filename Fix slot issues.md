@@ -10,7 +10,7 @@
 3. Run flash.bat
 4. Use the default bootloader version(1st option)
 5. Press 5 to flash full firmware and factory reset
-6. 
+6. ![Image showing TFS screen](https://github.com/Vinay1a1/G54_custom_rom/blob/main/TFS.png)
 7. Wait
 8. Boot your phone in system once flashing is completed
 9. Go to updates in settings
