@@ -15,3 +15,5 @@
 8. Do an OTA and reboot
 
 Now your slots are fixed. You can flash custom rom without an issue now
+
+Credits- Me, Lolinet guys and our hardworking devs.
