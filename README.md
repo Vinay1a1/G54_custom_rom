@@ -144,3 +144,10 @@ Turn on oem unlocking from settings>developer options
 
 7. **Enjoy New ROM**:
    - Your new ROM is now installed and ready to use.
+
+
+Hardbrick fix guide [HERE](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Hardbrick%20fix.md)
+
+fastboot flashing method guide [HERE](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Fastboot%20method.md)
+
+Fix empty slot guide [HERE](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Fix%20slot%20issues.md)
