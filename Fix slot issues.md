@@ -1,4 +1,4 @@
-## To check if you have empty slots
+## To check if you have an empty slot
 1. Connect device in fastboot
 2. type fastboot getvar all
 3. Check the lines with slot_unbootable
