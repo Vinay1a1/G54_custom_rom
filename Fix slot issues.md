@@ -1,6 +1,6 @@
 ## Requirements 
 1. Download tiny fastboot script from lolinet- https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
-2. Your device firmware(one version older than the one you wish to be on from- https://mirrors.lolinet.com/firmware/lenomola/
+2. Your device firmware(one version older than the one you wish to be on) from- https://mirrors.lolinet.com/firmware/lenomola/
 3. Brain
 4. Eyes
 
