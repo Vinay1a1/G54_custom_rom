@@ -113,7 +113,10 @@ Turn on oem unlocking from settings>developer options
 1. **Download ROM**:
    - Get the ROM you want to install. Verify the MD5 checksum to avoid hardbrick.
 
-2. **Apply Update in Recovery**:
+2. **Format Data**:
+   - Format data as required by the new ROM.
+
+3. **Apply Update in Recovery**:
    - Boot into recovery mode.
    - Select "Apply update".
   
@@ -121,12 +124,12 @@ Turn on oem unlocking from settings>developer options
 ![Apply update](https://github.com/Vinay1a1/G54_custom_rom/blob/main/apply%20update.png?raw=true)
 
 
-3. **Choose Update Source**:
+4. **Choose Update Source**:
    - Select either pendrive, SD card, or ADB sideload.
    - If using a PC, type: `adb sideload <rom.zip>`.
    - Replace `<rom.zip>` with the filename or filepath of the ROM.
 
-4. **Flash ROM**:
+5. **Flash ROM**:
    - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No". It doesn't matter what you choose.
   
    
@@ -134,10 +137,6 @@ Turn on oem unlocking from settings>developer options
 
 
 ![Reboot_yes_or_no](https://github.com/Vinay1a1/G54_custom_rom/blob/main/Reboot%20yes%20or%20no.jpg?raw=true)
-
-
-5. **Format Data**:
-   - Format data as required by the new ROM.
 
 6. **Reboot to System**:
    - Reboot your phone to the system.
