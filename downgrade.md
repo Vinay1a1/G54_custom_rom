@@ -1,5 +1,12 @@
 You can downgrade from A15 to A14. Don't try to go below May patch because anti-rollback will not allow you to downgrade.
 
+## Requirements-
+
+1. Brain
+2. Eyes
+3. Lolinet website https://mirrors.lolinet.com/
+4. TFS https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
+
 ## Steps-
 
 1. Download A14 firmware file from Lolinet or any other source.
