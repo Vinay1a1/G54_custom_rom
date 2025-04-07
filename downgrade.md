@@ -1,5 +1,7 @@
 You can downgrade from A15 to A14. Don't try to go below May patch because anti-rollback will not allow you to downgrade.
 
+## Note- I won't be responsible for bricked/dead device/thermonuclear war/ gharwale mar dalenge. You are doing it at your own risk
+
 ## Requirements-
 
 1. Brain
