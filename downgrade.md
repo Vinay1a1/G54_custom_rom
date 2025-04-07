@@ -6,6 +6,7 @@ You can downgrade from A15 to A14. Don't try to go below May patch because anti-
 2. Eyes
 3. Lolinet website https://mirrors.lolinet.com/
 4. TFS https://mirrors.lolinet.com/software/windows/TinyFastbootScript/
+5. Moto flash pro https://xdaforums.com/t/utility-motoflashpro.4252201/
 
 ## Steps-
 
