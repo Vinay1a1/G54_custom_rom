@@ -16,5 +16,5 @@ You can downgrade from A15 to A14. Don't try to go below May patch because anti-
 
 2. Flash it using tiny fastboot script or moto flash pro or manually by typing the commands.
 
-3. Now, if yoy want to flash custom rom then do an OTA.
+3. Now, if you want to flash custom rom then do an OTA.
 Edit: Jan patch is supported now.
