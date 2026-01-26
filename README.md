@@ -1,5 +1,5 @@
 ### Requirements
-
+### NOTE - This process is for A14 firmware. For A15+ roms, you will need to use initial install zip. Follow the Instructions given on rom page by Cyberknight777.
 1. **PC**
 2. **Platform Tools**: [Download here](http://developer.android.com/sdk/index.html)
 3. **Moto USB Drivers**: [Download here](https://en-us.support.motorola.com/app/usb-drivers)
